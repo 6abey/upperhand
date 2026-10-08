@@ -7,7 +7,7 @@
 <nav><a href="./">home</a><a href="privacy.html" aria-current="page">privacy</a><a href="terms.html">terms</a><a href="support.html">support</a><a href="acknowledgements.html">acknowledgements</a></nav>
 <h1>privacy policy</h1>
 <p class="muted">Effective October 8, 2026</p>
-<p>upperhand is an iPhone app that reads handwriting and gestures from a wristband, or from your screen, and answers questions. It's made by Gabriel Ascencio ("we"). This page explains what upperhand keeps, where it keeps it, and what leaves your iPhone.</p>
+<p>upperhand is an iPhone app that reads handwriting and gestures from a wristband, or questions typed on your iPhone, and answers them. It's made by Gabriel Ascencio ("we"). This page explains what upperhand keeps, where it keeps it, and what leaves your iPhone.</p>
 
 <h2>The short version</h2>
 <ul>
@@ -24,7 +24,7 @@
 <tr><td>Settings, gesture assignments, buzz settings, lesson progress, answer counts, honor mode times</td><td>upperhand's settings on your iPhone</td><td>Until you delete everything or delete the app</td></tr>
 <tr><td>Your wristband's pairing key</td><td>The iPhone keychain</td><td>Until you forget the band or delete everything</td></tr>
 <tr><td>Your OpenAI API key, if you add one</td><td>The iPhone keychain, this device only, readable only while the iPhone is unlocked</td><td>Until you remove it or delete everything</td></tr>
-<tr><td>A sign-in token from the wristband maker, if you pair the band on your iPhone</td><td>The iPhone keychain, this device only</td><td>Until you sign out (band tab › pair › sign out) or delete everything</td></tr>
+<tr><td>A sign-in token from the wristband maker, if you pair the band on your iPhone</td><td>The iPhone keychain, this device only</td><td>Until you forget the band, sign out (band tab › pair › sign out) or delete everything</td></tr>
 <tr><td>Your free week, streak and subscription status</td><td>Your iPhone's settings and keychain</td><td>The keychain copy stays after the app is deleted, so the free week isn't repeated. It holds dates and counts only, nothing about you.</td></tr>
 <tr><td>A diagnostic diary (connection events and gestures, not your questions)</td><td>Your iPhone's cache</td><td>It stays on your iPhone and goes to anyone only if you choose to share it</td></tr>
 </table>
@@ -32,7 +32,7 @@
 
 <h2>What leaves your iPhone, and only when you use the feature</h2>
 <p><strong>Answers in the cloud (Pro, optional).</strong> With smarter answers on and your own OpenAI API key saved, upperhand sends the text of the question you wrote, with fixed instructions, from your iPhone directly to OpenAI (api.openai.com), under your OpenAI account. upperhand asks you once before the first question goes to OpenAI, and asks OpenAI not to store the response. OpenAI says API data isn't used to train its models unless you opt in, and that abuse-monitoring logs are kept for up to 30 days (<a href="https://developers.openai.com/api/docs/guides/your-data">OpenAI: your data</a>). OpenAI's <a href="https://openai.com/policies/privacy-policy">privacy policy</a> governs what OpenAI keeps. We never see the request or the answer. Turn smarter answers off, or remove the key, and nothing goes to OpenAI.</p>
-<p>Data leaves your iPhone only for services you turn on, and each of those services handles it under its own privacy policy.</p>
+<p>The only third parties that receive data from upperhand are OpenAI (only with smarter answers on) and the wristband's maker (only when you pair your band on your iPhone). Each handles it under its own privacy policy.</p>
 <p><strong>Pairing your wristband (once).</strong> Your wristband accepts only an owner its maker has enrolled. If you pair the band on your iPhone, upperhand shows the maker's own sign-in page inside the app, in a private web view. upperhand doesn't read or keep your password. upperhand receives a session token, keeps it in the keychain, and sends it with your band's public key, your account ID at the maker and an app-made device ID to the maker's pairing service to register your iPhone as the band's owner. After that, the band and your iPhone talk directly over Bluetooth. The maker's privacy policy covers the sign-in and the pairing service.</p>
 <p><strong>Purchases.</strong> Subscriptions are bought and managed through Apple. Apple handles payment; we never see your payment details.</p>
 <p><strong>Crash reports.</strong> If you've chosen to share analytics with app developers in your iPhone's settings, Apple may pass us anonymous crash reports. We use them only to fix bugs.</p>
@@ -46,7 +46,7 @@
 <h2>Your choices and deleting your data</h2>
 <ul>
 <li>Clear your history: Settings › privacy › answer history › clear.</li>
-<li>Remove everything upperhand keeps (band key, sign-in, API key, history, settings): Settings › privacy › delete everything on this iPhone. Your subscription stays with your Apple Account.</li>
+<li>Remove everything upperhand keeps (band key, sign-in, API key, history, settings, honor mode's schedule): Settings › privacy › delete everything on this iPhone. Honor mode that's on right now still runs to its end. Your subscription stays with your Apple Account.</li>
 <li>Or one at a time: remove your API key in Settings › answers › API key; forget your band on the band tab; sign out of the wristband maker on the band tab › pair › sign out.</li>
 <li>Deleting the app removes its storage, but keychain items stay on the iPhone. To remove the band key, the sign-in and the API key, use delete everything before you delete the app.</li>
 <li>Cancel a subscription: iPhone Settings › your name › Subscriptions.</li>
